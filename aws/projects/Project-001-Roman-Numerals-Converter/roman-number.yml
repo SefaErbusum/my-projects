@@ -16,7 +16,7 @@ Resources:
     Properties:
       GroupDescription: Enable HTTP for Flask Web Server and SSH port to secure reach to my EC2
       SecurityGroupIngress:
-        - IpProtocol: tc
+        - IpProtocol: tcp 
           FromPort: 80
           ToPort: 80
           CidrIp: 0.0.0.0/0
